@@ -17,4 +17,5 @@ dependencies:
 - scikit-learn=0.21
 - seaborn=0.11
 - tensorflow=1.13
+- hmmlearn=0.2.7
 
