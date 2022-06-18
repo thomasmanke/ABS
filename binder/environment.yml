@@ -6,16 +6,19 @@ dependencies:
 - jupyter-offlinenotebook=0.2
 - nodejs=12
 - nbconvert=6
+- numpy==1.21.6
+- matplotlib==3.2.2
+
 # RTC
 - jupyterlab-link-share=0.2
 # Python Kernel
 - ipykernel=5.1
-- matplotlib=3.1
+#- matplotlib=3.1
 - pandas=1
 - python=3.7
 - scikit-image=0.15
 - scikit-learn=0.21
-- seaborn=0.11
-- tensorflow=1.13
+#- seaborn=0.11
+- tensorflow=2.8.2
 - hmmlearn=0.2.7
 
