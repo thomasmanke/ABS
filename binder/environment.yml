@@ -25,3 +25,6 @@ dependencies:
     - tensorflow-datasets==3.0.0 # datasets repository, ready to use
     - tensorflow-hub==0.9.0      # trained ML models repository, ready to use
     - tensorflow==2.8.2          # Deep Learning library
+    - tf-keras-vis==0.8.1        # Saliency map and GradCam
+    - Bio
+   `
