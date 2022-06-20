@@ -27,4 +27,3 @@ dependencies:
     - tensorflow==2.8.2          # Deep Learning library
     - tf-keras-vis==0.8.1        # Saliency map and GradCam
     - Bio
-   `
