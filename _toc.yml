@@ -5,15 +5,18 @@ format: jb-book
 root: README
 parts:
   - caption: Introduction to JupyterLab
+    numbered: True
     chapters:
     - file: Notebooks/Jupyter/Notebooks_000.ipynb
   - caption: Markov Chains
+    numbered: True
     chapters:
     - file: Notebooks/MarkovChains/MC_000_Sampling.ipynb 
     - file: Notebooks/MarkovChains/MC_001_MCSampling.ipynb
     - file: Notebooks/MarkovChains/MC_002_Properties.ipynb
     - file: Notebooks/MarkovChains/MC_003_Applications.ipynb
   - caption: Hidden Markov Models
+    numbered: True
     chapters:
     - file: Notebooks/HiddenMarkovModels/HMM_000_Intro.ipynb
     - file: Notebooks/HiddenMarkovModels/HMM_001_Forward.ipynb
@@ -21,6 +24,7 @@ parts:
     - file: Notebooks/HiddenMarkovModels/HMM_003_Casino.ipynb
     - file: Notebooks/HiddenMarkovModels/HMM_005_project.ipynb
   - caption: Artificial Neural Networks
+    numbered: True
     chapters:
     - file: Notebooks/ANN/ANN_001_Intro.ipynb
     - file: Notebooks/ANN/ANN_002_LogRegression.ipynb
