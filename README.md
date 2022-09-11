@@ -13,4 +13,13 @@ It covers three larger blocks
 * Hidden Markov Models: Notebooks/HiddenMarkovChains/*
 * Artifical Neural Networks: Notebooks/ANN/_*
 
-The material was originally developed for the CQ Training Programme 
+The material was originally developed for the CQ Training Programme.
+
+If jupyter-book is installed a book can be build using
+> jupyter-book build .
+
+Notice that the timeout was set to 200s (_config.yml).
+This long time was required for the more expensive tensorflow parts to finish on a modern laptop.
+
+```{tableofcontents}
+```

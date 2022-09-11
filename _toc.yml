@@ -1,0 +1,32 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: README
+parts:
+  - caption: Introduction to JupyterLab
+    chapters:
+    - file: Notebooks/Jupyter/Notebooks_000.ipynb
+  - caption: Markov Chains
+    chapters:
+    - file: Notebooks/MarkovChains/MC_000_Sampling.ipynb 
+    - file: Notebooks/MarkovChains/MC_001_MCSampling.ipynb
+    - file: Notebooks/MarkovChains/MC_002_Properties.ipynb
+    - file: Notebooks/MarkovChains/MC_003_Applications.ipynb
+  - caption: Hidden Markov Models
+    chapters:
+    - file: Notebooks/HiddenMarkovModels/HMM_000_Intro.ipynb
+    - file: Notebooks/HiddenMarkovModels/HMM_001_Forward.ipynb
+    - file: Notebooks/HiddenMarkovModels/HMM_002_Viterbi.ipynb
+    - file: Notebooks/HiddenMarkovModels/HMM_003_Casino.ipynb
+    - file: Notebooks/HiddenMarkovModels/HMM_005_project.ipynb
+  - caption: Artificial Neural Networks
+    chapters:
+    - file: Notebooks/ANN/ANN_001_Intro.ipynb
+    - file: Notebooks/ANN/ANN_002_LogRegression.ipynb
+    - file: Notebooks/ANN/ANN_003_Spirals.ipynb
+    - file: Notebooks/ANN/ANN_004_ImageClassification.ipynb
+    - file: Notebooks/ANN/ANN_005_CNN.ipynb
+    - file: Notebooks/ANN/ANN_006_Sequences.ipynb
+    - file: Notebooks/ANN/ANN_007_GradCam.ipynb
+    - file: Notebooks/ANN/ANN_outlook.ipynb
