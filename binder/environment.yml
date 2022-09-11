@@ -12,7 +12,7 @@ dependencies:
 - pandas=1
 - python=3.7
 - scikit-image=0.15
-- scikit-learn=0.21
+- scikit-learn=1.0.2
 - pip
 - hmmlearn=0.2.7
 - pip:
