@@ -2,6 +2,9 @@
 Various convenience functions for the ABS course
 """ 
 
+import numpy as np
+import matplotlib.pyplot as plt
+
 # my plot function for confusion matrix
 def plot_cm(mat):
   classes = np.arange(cm.shape[0])
