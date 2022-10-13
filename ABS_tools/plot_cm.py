@@ -1,10 +1,9 @@
 def plot_cm(mat):
-    """
-    Function to plot confusion matrix mat. 
+  """
+  Function to plot confusion matrix mat. 
 
-    The matrix could be the output from sklearn: mat = confusion_matrix(y_pred, y_test)
-
-    """
+  The matrix could be the output from sklearn: mat = confusion_matrix(y_pred, y_test)
+  """
 
   classes = np.arange(cm.shape[0])
   plt.imshow(mat, cmap=plt.cm.Blues)
