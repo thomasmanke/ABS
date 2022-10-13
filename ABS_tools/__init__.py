@@ -1,5 +1,5 @@
 """
-The ``ABS_tools`` module provides functionality for the jupyter notebooks of the ABS lecture
+The ``ABS_tools`` package provides functionality for the jupyter notebooks of the ABS lecture
 """
 
 __version__ = '0.0.1'
