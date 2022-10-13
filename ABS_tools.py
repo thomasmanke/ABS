@@ -8,7 +8,7 @@ def plot_cm(mat):
   The matrix could be the output from sklearn: mat = confusion_matrix(y_pred, y_test)
   """
 
-  classes = np.arange(cm.shape[0])
+  classes = np.arange(mat.shape[0])
   plt.imshow(mat, cmap=plt.cm.Blues)
   for (j,i),label in np.ndenumerate(mat):
     plt.text(i,j,np.round(label,2),ha='center',va='center')
